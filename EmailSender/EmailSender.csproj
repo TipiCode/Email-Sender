@@ -1,0 +1,40 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>Tipi.Tools.Email</AssemblyName>
+    <RootNamespace>Tipi.Tools.Email</RootNamespace>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <PackageId>Tipi.Tools.Email.EmailSender</PackageId>
+    <Version>1.0.0</Version>
+    <Authors>tipi(code)</Authors>
+    <Product>EmailSender</Product>
+    <Description>This package is making it easier to interact with SMTsender</Description>
+    <Copyright>© tipicode | all rights reserved</Copyright>
+    <PackageProjectUrl>https://docs.codingtipi.com/docs/toolkit/email-sender/</PackageProjectUrl>
+    <PackageIcon>Assets/tipi.png</PackageIcon>
+    <RepositoryUrl>https://github.com/TipiCode/email-sender</RepositoryUrl>
+    <PackageTags>c#;SMT;Sender;Email;mail</PackageTags>
+    <PackageReleaseNotes>Added comments and URL to the official documentation.</PackageReleaseNotes>
+    <NeutralLanguage>en</NeutralLanguage>
+    <AssemblyVersion>1.0.0</AssemblyVersion>
+    <FileVersion>1.0.0</FileVersion>
+    <PackageLicenseExpression>MIT</PackageLicenseExpression>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="MailKit" Version="3.3.0" />
+    <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="6.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Assets\tipi.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+</Project>
