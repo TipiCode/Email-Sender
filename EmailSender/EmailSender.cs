@@ -43,10 +43,11 @@ namespace Tipi.Tools.Email
             mailMessage.From.Add(new MailboxAddress(_config.EmailName, _config.User));
             mailMessage.To.Add(MailboxAddress.Parse(to_email));
             mailMessage.Subject = subject;
-            mailMessage.Body = new TextPart(TextFormat.Html)
-            {
-                Text = body
-            };
+
+            var builder = new BodyBuilder();
+            builder.HtmlBody = body;
+
+            mailMessage.Body = builder.ToMessageBody();
 
             using (var smtpClient = new SmtpClient())
             {
