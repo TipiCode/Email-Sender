@@ -10,11 +10,11 @@
 
 
 # Acerca del proyecto
-Este proyecto se enfoca en implementar de una manera sencilla métodos que nos dejen interactuar con las clases utilizadas por .NET para el envió de correos electrónicos por medio de un servidor SMTP. Puedes leer la documentacion específica para esta librería en el siguiente ![link](https://docs.codingtipi.com/docs/toolkit/email-sender).
+Este proyecto se enfoca en implementar de una manera sencilla métodos que nos dejen interactuar con las clases utilizadas por .NET para el envió de correos electrónicos por medio de un servidor SMTP. Puedes leer la documentacion específica para esta librería en el siguiente [link](https://docs.codingtipi.com/docs/toolkit/email-sender).
 
 Esta librería es parte de una serie de librerías que facilitan el uso de clases de .NET , como proyecto buscamos crear y mantener librerías que sean útiles para facilitar desarrollo en .NET nuestro principal enfoque es facilitar y abstraer código difícil de entender, de esta manera buscamos abrir más posibilidades a muchos más desarrolladores de .NET, todas estas librerías serán soportadas por el momento en versiones LTS de .NET Core. Gracias por tomarte el tiempo de leer nuestro proyecto, te invitamos a que contribuyas y utilices esta librería y esperemos te ayude en tus proyectos.
 
-Todas nuestras librerías se encuentran publicadas en Nuget para su fácil acceso dentro de tus proyectos, puedes iniciar leyendo la documentacion especifica de cada librería el siguiente ![Sitio Web](https://docs.codingtipi.com/docs/toolkit/intro)
+Todas nuestras librerías se encuentran publicadas en Nuget para su fácil acceso dentro de tus proyectos, puedes iniciar leyendo la documentacion especifica de cada librería el siguiente [Sitio Web](https://docs.codingtipi.com/docs/toolkit/intro)
 
 <table>
 <tr>
