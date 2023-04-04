@@ -50,7 +50,6 @@ Para poder utilizar la librería necesitas contar con un ambiente de desarrollo 
 Aca de dejamos algunos temas que te pueden interesar 
 
 - [Una introducción a NuGet](https://learn.microsoft.com/es-es/nuget/what-is-nuget)
-- [Digital Ocean Spaces](https://www.digitalocean.com/products/spaces)
 - [SMTP Server](https://sendgrid.com/blog/what-is-an-smtp-server/)
 
 ### Instalación por medio de Github
